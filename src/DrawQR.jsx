@@ -3,6 +3,7 @@ import { toCanvas } from "qrcode";
 
 function DrawQR(props){
     const canvasRef = useRef(null)
+    //comment
 
     var options = {
         version: 12,
